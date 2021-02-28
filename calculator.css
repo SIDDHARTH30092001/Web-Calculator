@@ -1,0 +1,59 @@
+* {
+font-family: 'Inconsolata', monospace;
+	color: rgb(15, 15, 15);
+}
+
+body{
+	height: 84vh;
+	width: auto;
+	background: linear-gradient(purple,blue);
+}
+
+.container {
+	/* background: linear-gradient(rgb(224, 76, 17),rgb(16, 243, 16)); */
+	animation: rgbachanger 20s infinite ;
+	transition-timing-function: ease-in-out;
+}
+
+@keyframes rgbachanger {
+	0% {background: linear-gradien(purple,blue,red);}
+	25%{background:linear-gradient(red,maroon,darkblue);}
+	50%{background:linear-gradient(darkblue,green,magenta);}
+	75%{background:linear-gradient(magenta,darkgreen,pink);}
+	100% {background:linear-gradient(pink,violet,purple);}
+  }
+.container {
+	width: 320px;
+	background-color: rgba(236, 197, 20, 0.377);
+	margin: 120px auto;
+}
+table {
+	width: 100%;
+	border-color: #523737;
+}
+td {
+	width: 25%;
+}
+button {
+	width: 100%;
+	height: 70px;
+	font-size: 24px;
+	background-color: rgb(110, 144, 223);
+	border: none;
+	outline: none;
+	color: black;
+}
+
+button:hover {
+	color: rgb(219, 17, 17);
+	box-shadow: 0px 5px 15px rgba(230, 162, 17, 0.014);
+  }
+
+#inputLabel {
+	height: 120px;
+	font-size: 40px;
+	vertical-align: bottom;
+	text-align: right;
+	padding-right: 16px;
+	background-color: #ffffff;
+}

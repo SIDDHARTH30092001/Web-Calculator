@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Basic Calculator</title>
+<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+<link href="calculator.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <table border="10" cellspacing="0">
+        <tr>
+            <td colspan="4" id="inputLabel">0</td>
+        </tr>
+        <tr>
+            <td colspan="2"><button onclick="valueBtn(this);">AC</button></td>
+            <td colspan="1"><button onclick="valueBtn(this);">C</button></td>
+            <td><button onclick="valueBtn(this);">/</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="valueBtn(this);">7</button></td>
+            <td><button onclick="valueBtn(this);">8</button></td>
+            <td><button onclick="valueBtn(this);">9</button></td>
+            <td><button onclick="valueBtn(this);">*</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="valueBtn(this);">4</button></td>
+            <td><button onclick="valueBtn(this);">5</button></td>
+            <td><button onclick="valueBtn(this);">6</button></td>
+            <td><button onclick="valueBtn(this);">-</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="valueBtn(this);">1</button></td>
+            <td><button onclick="valueBtn(this);">2</button></td>
+            <td><button onclick="valueBtn(this);">3</button></td>
+            <td><button onclick="valueBtn(this);">+</button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button onclick="valueBtn(this);">0</button></td>
+            <td><button onclick="valueBtn(this);">.</button></td>
+            <td><button onclick="valueBtn(this);">=</button></td>
+        </tr>
+    </table>
+</div>
+<script src="calculator.js"></script>
+</body>
+</html>
